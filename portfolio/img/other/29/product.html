@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>前端程式設計HW2</title>
+
+    <!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="product_stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="container">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home Page</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="business.html">Business</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#">Menu</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item active" href="product.html">Dessert</a>
+              <a class="dropdown-item" href="bread.html">Bread</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <b><p class="header">The Popular Desserts of XinXin Bakery</p></b>
+    </div>
+
+    <div>
+        <table>
+            <!--product img-->
+            <tr>
+                <td class="product" colspan="2"> 
+                    <img src="img/cher-tart.jpg" alt="Cherry Tart" class="pic">
+                </td>
+                <td class="product" colspan="2">
+                    <img src="img/rasp-tart.jpg" alt="Cherry Tart" class="pic">
+                </td>
+                <td class="product" colspan="2">
+                    <img src="img/cookie.jpg" alt="Cherry Tart" class="pic">
+                </td>
+                <td class="product" colspan="2">
+                    <img src="img/mousse.jpg" alt="Cherry Tart" class="pic">
+                </td>
+                <td class="product" colspan="2">
+                    <img src="img/pie.jpg" alt="Cherry Tart" class="pic">
+                </td>
+            </tr>
+
+            <!--number and name-->
+            <tr>
+                <td class="number">
+                    <p>1</p>
+                </td>
+                <td class="name">
+                    <p>Cherry Tart</p>
+                </td>
+                <td class="number">
+                    <p>2</p>
+                </td>
+                <td class="name">
+                    <p>Raspberry Tart</p>
+                </td>
+                <td class="number"> 
+                    <p>3</p>
+                </td>
+                <td class="name">
+                    <p>Chotolate Cookie</p>
+                </td>
+                <td class="number">
+                    <p>4</p>
+                </td>
+                <td class="name">
+                    <p>Blackberry Mousse Cake</p>
+                </td>
+                <td class="number">
+                    <p>5</p>
+                </td>
+                <td class="name">
+                    <p>Peach Pie</p>
+                </td>
+            </tr>
+
+            <!--price-->
+            <td class="price" colspan="2">
+                <p>$5/each</p>
+            </td>
+            <td class="price" colspan="2">
+                <p>$5/each</p>
+            </td>
+            <td class="price" colspan="2">
+                <p>$2/each</p>
+            </td>
+            <td class="price" colspan="2">
+                <p>$10/each</p>
+            </td>
+            <td class="price" colspan="2">
+                <p>$20/each</p>
+            </td>
+           
+        </table>
+    </div>
+</body>
+
+</html>

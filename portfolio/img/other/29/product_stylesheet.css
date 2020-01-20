@@ -1,0 +1,81 @@
+body{
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+}
+
+h2{
+    font-family:'Rokkitt', serif;
+    color: #C7B691;
+    font-size: 48px;
+}
+
+a{
+    color: #C7B691;
+}
+a:hover{
+    color: #A39C8C;
+}
+
+a.dropdown-item:active{
+    background-color: #F5F5F5;
+    color: #000000;
+}
+
+div.banner{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p.header{
+    font-family:'Rokkitt', serif;
+    color: #C7B691;
+    font-size: 48px;
+}
+
+
+p{
+    font-family:'Rokkitt', serif;
+    color: #A39C8C;
+    font-size: 18px;
+
+}
+
+td.product{
+    padding: 5px;
+    width: 20%;
+}
+
+img.pic{
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+td.number{
+    width: 3%;
+    text-align: left;
+    vertical-align: top;
+}
+
+td.name{
+    width: 17%;
+    padding-right: 25px;
+    text-align: right;
+    vertical-align: top;
+}
+
+td.price{
+    width: 20%;
+    padding-right: 25px;
+    text-align: right;
+    vertical-align: top;
+    margin: 0;
+}
